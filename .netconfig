@@ -1,0 +1,6 @@
+[ReportGenerator]
+  reports = "**\\coverage.cobertura.xml"
+  targetdir = "TestResults"
+  reporttypes = Html;Cobertura;SonarQube
+  # assemblyfilters = +Test;-Test
+  # classfilters = +Test2;-Test2
